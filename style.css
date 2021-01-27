@@ -1,0 +1,101 @@
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: center;
+  width: 33.3%;
+  padding: 4px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 13px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+.price li:nth-child(even) {
+  background-color: #dddddd;
+}
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+.container2{
+  text-align: center;
+}
+
+.card1 {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+ border:1px grey;
+ align-content: center;
+ text-align: center;
+ margin: 2rem;
+ margin-left:auto;
+ margin-right: -30px;
+ padding-bottom: 10px;
+ 
+}
+.card2 {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+ border:1px grey;
+ align-content: center;
+ text-align: center;
+ margin: 2rem;
+ margin-left: 60px;
+ padding-bottom: 10px;
+ 
+}
+.card3 {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+ border:1px grey;
+ align-content: center;
+ text-align: center;
+ margin: 2rem;
+ margin-left: -30px;
+ padding-bottom: 10px;
+ 
+}
+.container-fluid{
+  margin-right: 2rem;
+
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.jumbotron text-center{
+  background-color: cyan;
+}
+.image{
+ width: 80%;
+ padding-left: 30px;
+
+}
+.checked{
+  color: orange;
+}
+
+
